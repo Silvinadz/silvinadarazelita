@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Silvina Dara Zelita">
+<meta name="dcterms.date" content="2024-11-05">
+
+<title>Pengaruh Ekspor Gas Alam dan Minyak Mentah terhadap GDP Indonesia</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Pengaruh Ekspor Gas Alam dan Minyak Mentah terhadap GDP Indonesia</h1>
+<p class="subtitle lead">Metode Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Silvina Dara Zelita </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 5, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="poltekapp.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">logo</figcaption>
+</figure>
+</div>
+<section id="pendahuluan" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> Pendahuluan</h2>
+<section id="latar-belakang" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar belakang</h3>
+<p>Ekspor gas alam dan minyak mentah merupakan elemen penting dalam perekonomian Indonesia, memberikan kontribusi signifikan terhadap Produk Domestik Bruto (GDP) negara. Sebagai negara dengan cadangan energi yang melimpah, Indonesia telah lama menjadi salah satu eksportir utama gas alam cair (LNG) di dunia. Meskipun posisinya mengalami penurunan pangsa pasar global akibat berbagai faktor, termasuk kebijakan pemerintah dan fluktuasi harga energi internasional, sektor migas tetap berperan strategis dalam ekonomi nasional.</p>
+<p>Ekspor sektor migas, termasuk gas alam, memiliki dampak yang kompleks terhadap pertumbuhan ekonomi Indonesia. Penelitian menunjukkan bahwa ekspor sektor ini memiliki pengaruh negatif yang signifikan terhadap pertumbuhan ekonomi, meskipun kontribusinya masih sangat relevan. Volume ekspor gas alam Indonesia sangat dipengaruhi oleh pertumbuhan ekonomi negara-negara tujuan ekspornya. Peningkatan GDP di negara importir tidak selalu berbanding lurus dengan peningkatan permintaan gas dari Indonesia; kadang-kadang, kenaikan GDP di negara importir justru mengurangi volume ekspor gas dari Indonesia karena adanya sumber alternatif dan variasi dalam kebijakan energi di negara-negara tersebut. Fluktuasi harga minyak dan gas di pasar internasional juga berpengaruh terhadap volume ekspor gas alam. Kenaikan harga minyak mentah sering kali diikuti oleh penurunan volume ekspor gas alam, menunjukkan bahwa pasar energi global sangat saling terkait. Selain itu, ketidakstabilan politik dan ekonomi di negara tujuan juga dapat mempengaruhi permintaan akan gas alam.</p>
+<p>Pemerintah Indonesia telah berusaha untuk mengurangi ketergantungan pada ekspor gas dengan mendorong penggunaan gas domestik sebagai sumber energi utama. Tujuannya adalah untuk memastikan ketersediaan pasokan energi bagi industri dan masyarakat domestik sambil tetap mempertahankan posisi Indonesia sebagai eksportir gas. Namun, tantangan infrastruktur dan investasi yang terbatas dalam pengembangan jaringan distribusi membuat implementasi kebijakan ini tidak selalu berjalan mulus. Meskipun sektor migas memberikan kontribusi signifikan terhadap perekonomian, tantangan dalam hal diversifikasi ekonomi dan ketergantungan pada pasar internasional harus diatasi untuk memastikan pertumbuhan ekonomi yang berkelanjutan. Kebijakan pemerintah yang mendukung penggunaan gas domestik serta investasi dalam infrastruktur akan menjadi kunci untuk meningkatkan kontribusi positif sektor ini terhadap GDP Indonesia di masa depan. Dengan demikian, pengaruh ekspor gas alam dan minyak mentah terhadap GDP Indonesia adalah kompleks dan dipengaruhi oleh berbagai faktor internal dan eksternal. Oleh karena itu, perlu adanya strategi yang komprehensif untuk mengoptimalkan potensi sektor migas sambil mengatasi tantangan-tantangan yang ada.</p>
+</section>
+<section id="ruang-lingkup" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang lingkup</h3>
+<p>Dalam penelitian ini, penulis mengumpulkan data dengan menggunakan metode dokumentasi melalui laporan tahunan Badan Pusat Statistik (BPS) periode tahun 2000 sampai 2023. Selain itu, peneliti juga mengumpulkan data dari sumber internasional seperti World Bank untuk mendukung analisis. Terdapat dua variabel (X,Y dan S) dalam penelitian ini, di mana variabel X adalah ekspor gas alam ,variabel Y adalah Produk Domestik Bruto (GDP) Indonesia dan variable S nya adalah minyak bumi. Data bersifat time series dalam kurun waktu 2000 hingga 2023, dengan satuan dalam juta dolar untuk memperpendek penulisan angka.</p>
+</section>
+<section id="rumusan-masalah" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan masalah</h3>
+<p>Penelitian ini akan menjawab persoalan mengenai:</p>
+<ol type="1">
+<li><p>Seberapa besar kontribusi ekspor gas alam dan minyak mentah terhadap pertumbuhan GDP Indonesia?</p></li>
+<li><p>Bagaimana perubahan harga gas alam dan minyak mentah global memengaruhi kinerja ekspor gas alam dan minyak mentah Indonesia?</p></li>
+<li><p>Apa saja tantangan yang dihadapi Indonesia dalam mempertahankan posisi sebagai eksportir gas alam dan minyak mentah di pasar global?</p></li>
+</ol>
+</section>
+<section id="tujuan-dan-manfaat-penelitian" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="tujuan-dan-manfaat-penelitian"><span class="header-section-number">1.4</span> Tujuan dan manfaat penelitian</h3>
+<p>Tujuan penelitian ini dirumuskan untuk memberikan manfaat bagi pemerintah dan masyarakat, dengan fokus pada pengembangan sektor gas alam dan minyak mentah serta dampaknya terhadap perekonomian Indonesia.</p>
+<p><strong>1. Bagi Pemerintah</strong> Penelitian ini bertujuan memberikan rekomendasi kebijakan berbasis data untuk meningkatkan kinerja ekspor gas alam dan minyak mentah serta kontribusinya terhadap GDP Indonesia. Selain itu, penelitian ini akan mengidentifikasi strategi optimasi pemanfaatan sumber daya gas alam dan minyak mentah guna mendukung pertumbuhan ekonomi yang berkelanjutan dan mendorong inovasi serta diversifikasi energi.</p>
+<p><strong>2. Bagi Masyarakat</strong> Penelitian ini bertujuan meningkatkan kesadaran publik tentang peran ekspor gas alam dan minyak mentah dalam perekonomian nasional dan dampaknya terhadap kesejahteraan masyarakat. Penelitian ini juga mengajak masyarakat berpartisipasi dalam pengambilan keputusan terkait kebijakan energi, serta memberikan kontribusi pada peningkatan kualitas hidup melalui penyediaan energi yang lebih baik dan berkelanjutan.</p>
+</section>
+<section id="package" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="package"><span class="header-section-number">1.5</span> Package</h3>
+<p>Sebagai penunjang regresi multivariat dalam penelitian digunakan beberapa packages antara lain:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyverse' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyr' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readr' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'purrr' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dplyr' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'stringr' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'forcats' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'lubridate' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readxl' was built under R version 4.3.3</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="studi-pustaka" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="studi-pustaka"><span class="header-section-number">2</span> Studi pustaka</h2>
+<p>Penelitian ini membahas berbagai aspek terkait ekspor gas alam dan minyak mentah Indonesia, dengan fokus pada kontribusinya terhadap pertumbuhan GDP, pengaruh harga global, dan tantangan yang dihadapi dalam mempertahankan posisi sebagai eksportir. Ekspor gas alam, terutama dalam bentuk Liquefied Natural Gas (LNG), dan minyak mentah telah menjadi salah satu pilar penting dalam perekonomian Indonesia. Dalam beberapa tahun terakhir, volume ekspor gas alam dan minyak mentah Indonesia mengalami penurunan yang signifikan, meskipun nilai ekspor terkadang menunjukkan tren yang berbeda. Penurunan ini mencerminkan dinamika pasar yang kompleks dan tantangan yang dihadapi oleh kedua sektor ini.</p>
+<p>Fluktuasi harga di pasar internasional adalah salah satu faktor kunci yang mempengaruhi kinerja ekspor gas alam dan minyak mentah. Perubahan harga global dapat berdampak langsung pada daya saing ekspor Indonesia. Ketidakpastian harga dapat memengaruhi keputusan investasi dan produksi di sektor migas, serta berdampak pada pendapatan negara. Dalam konteks ini, kontrak jangka panjang sering kali diadopsi sebagai strategi untuk menjamin stabilitas pendapatan, meskipun ada risiko terkait dengan fluktuasi harga pasar.</p>
+<p>Tantangan lain yang dihadapi Indonesia dalam mempertahankan posisinya sebagai eksportir gas dan minyak adalah keterbatasan infrastruktur dan distribusi. Infrastruktur yang ada saat ini masih sangat terbatas, dan distribusi gas serta minyak sering kali tidak merata di berbagai wilayah. Keterbatasan ini menyulitkan pemenuhan kebutuhan domestik dan menghambat potensi ekspor. Pemerintah juga dituntut untuk memastikan ketersediaan pasokan dari produksi domestik dan impor untuk memenuhi kebutuhan energi nasional.</p>
+<p>Pemerintah telah berupaya untuk meningkatkan penggunaan gas dan minyak domestik sambil tetap menjaga komitmen ekspor. Namun, kebijakan ini harus diimbangi dengan pengembangan infrastruktur yang memadai dan peningkatan investasi di sektor migas. Penelitian sebelumnya menunjukkan bahwa koordinasi antara berbagai pihak terkait sangat penting untuk memastikan keberhasilan kebijakan yang diterapkan. Secara keseluruhan, penelitian ini menyoroti pentingnya memahami dinamika pasar gas alam dan minyak mentah serta tantangan yang dihadapi Indonesia dalam mempertahankan posisinya sebagai eksportir. Oleh karena itu, penelitian lebih lanjut diperlukan untuk mengeksplorasi strategi yang dapat meningkatkan daya saing sektor gas alam dan minyak mentah Indonesia sambil memastikan keberlanjutan pasokan energi bagi masyarakat domestik.</p>
+</section>
+<section id="metode-penelitian" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="metode-penelitian"><span class="header-section-number">3</span> Metode penelitian</h2>
+<section id="data" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="data"><span class="header-section-number">3.1</span> Data</h3>
+<table class="table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 26%">
+<col style="width: 27%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tahun</th>
+<th>Ekspor gasalam(X)</th>
+<th>GDP INDONESIA (Y)</th>
+<th>Ekspor Minyakmentah (S)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2000</td>
+<td>6624900.00</td>
+<td>165021012077.81</td>
+<td>6090100.00</td>
+</tr>
+<tr class="even">
+<td>2001</td>
+<td>5732200.00</td>
+<td>160446947784.909</td>
+<td>5714700.00</td>
+</tr>
+<tr class="odd">
+<td>2002</td>
+<td>5577600.00</td>
+<td>195660611165.183</td>
+<td>5227600.00</td>
+</tr>
+<tr class="even">
+<td>2003</td>
+<td>6476700.00</td>
+<td>234772463823.808</td>
+<td>5621000.00</td>
+</tr>
+<tr class="odd">
+<td>2004</td>
+<td>7749600.00</td>
+<td>256836875295.452</td>
+<td>6241400.00</td>
+</tr>
+<tr class="even">
+<td>2005</td>
+<td>9153700.00</td>
+<td>285868619196.085</td>
+<td>8145800.00</td>
+</tr>
+<tr class="odd">
+<td>2006</td>
+<td>10197100.00</td>
+<td>364570515618.357</td>
+<td>8168800.00</td>
+</tr>
+<tr class="even">
+<td>2007</td>
+<td>9983800.00</td>
+<td>432216737774.861</td>
+<td>9226000.00</td>
+</tr>
+<tr class="odd">
+<td>2008</td>
+<td>13160500.00</td>
+<td>510228634990.598</td>
+<td>12418700.00</td>
+</tr>
+<tr class="even">
+<td>2009</td>
+<td>8935700.00</td>
+<td>539580085616.492</td>
+<td>7820300.00</td>
+</tr>
+<tr class="odd">
+<td>2010</td>
+<td>13669400.00</td>
+<td>755094157621.936</td>
+<td>10402900.00</td>
+</tr>
+<tr class="even">
+<td>2011</td>
+<td>22871500.00</td>
+<td>892969104563.171</td>
+<td>13828700.00</td>
+</tr>
+<tr class="odd">
+<td>2012</td>
+<td>0511300.00</td>
+<td>917869913332.649</td>
+<td>12293400.00</td>
+</tr>
+<tr class="even">
+<td>2013</td>
+<td>18118600.00</td>
+<td>912524136718.018</td>
+<td>10204700.00</td>
+</tr>
+<tr class="odd">
+<td>2014</td>
+<td>17175800.00</td>
+<td>890814755533.537</td>
+<td>9215000.00</td>
+</tr>
+<tr class="even">
+<td>2015</td>
+<td>10328600.00</td>
+<td>860854232686.214</td>
+<td>6479400.00</td>
+</tr>
+<tr class="odd">
+<td>2016</td>
+<td>6992400.00</td>
+<td>931877364037.698</td>
+<td>5196700.00</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>8670900.00</td>
+<td>1015618744159.73</td>
+<td>5354900.00</td>
+</tr>
+<tr class="odd">
+<td>2018</td>
+<td>10320400.00</td>
+<td>1042271532988.63</td>
+<td>5151900.00</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td>8251700.00</td>
+<td>1119099871350.2</td>
+<td>1726600.00</td>
+</tr>
+<tr class="odd">
+<td>2020</td>
+<td>5397500.00</td>
+<td>1059054842698.48</td>
+<td>1396900.00</td>
+</tr>
+<tr class="even">
+<td>2021</td>
+<td>7451000.00</td>
+<td>1186509691086.73</td>
+<td>2795900.00</td>
+</tr>
+<tr class="odd">
+<td>2022</td>
+<td>9711900.00</td>
+<td>1319076267310.16</td>
+<td>1615300.00</td>
+</tr>
+<tr class="even">
+<td>2023</td>
+<td>3515800.00</td>
+<td>1371171152331.16</td>
+<td>916600.00</td>
+</tr>
+</tbody>
+</table>
+<p>Penelitian ini menggunakan bentuk data time series dalam kurun waktu tahun 2000 hingga 2023, dengan current US$.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"C:/METOPEN"</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>metopen <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"metopen.xlsx"</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>reg2<span class="ot">&lt;-</span><span class="fu">lm</span>(<span class="at">data=</span>metopen,Y<span class="sc">~</span>X<span class="sc">+</span>S)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Y ~ X + S, data = metopen)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-2.883e+11 -1.482e+11 -2.302e+10  1.239e+11  4.610e+11 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  6.938e+11  1.100e+11   6.308 2.96e-06 ***
+X            1.003e+05  1.621e+04   6.185 3.89e-06 ***
+S           -1.485e+05  2.238e+04  -6.638 1.43e-06 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 2.281e+11 on 21 degrees of freedom
+Multiple R-squared:  0.6867,    Adjusted R-squared:  0.6569 
+F-statistic: 23.01 on 2 and 21 DF,  p-value: 5.101e-06</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>metopen<span class="sc">$</span>m<span class="ot">&lt;-</span><span class="fu">resid</span>(reg2)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(metopen<span class="sc">$</span>Y,metopen<span class="sc">$</span>m,<span class="at">xlab=</span><span class="st">"GDP"</span>,<span class="at">ylab=</span><span class="st">"error"</span>,<span class="at">col=</span><span class="st">'blue'</span>,<span class="at">pch=</span><span class="dv">16</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>plot pengaruh eror terhadap GDP</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>metopen<span class="sc">$</span>m<span class="ot">&lt;-</span><span class="fu">resid</span>(reg2)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(metopen<span class="sc">$</span>X,metopen<span class="sc">$</span>m,<span class="at">xlab=</span><span class="st">"Ekspor Gas Alam"</span>,<span class="at">ylab=</span><span class="st">"error"</span>,<span class="at">col=</span><span class="st">'pink'</span>,<span class="at">pch=</span><span class="dv">16</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>plot pengaruh eror terhadap Ekspor Gas Alam</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>metopen<span class="sc">$</span>m<span class="ot">&lt;-</span><span class="fu">resid</span>(reg2)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(metopen<span class="sc">$</span>S,metopen<span class="sc">$</span>m,<span class="at">xlab=</span><span class="st">"Ekspor Minyak Mentah"</span>,<span class="at">ylab=</span><span class="st">"error"</span>,<span class="at">col=</span><span class="st">'orange'</span>,<span class="at">pch=</span><span class="dv">16</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>plot pengaruh eror terhadap Ekspor Minyak Mentah</p>
+</section>
+<section id="metode-analisis" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">3.2</span> Metode analisis</h3>
+<p>Dalam penelitian ini, peneliti memilih metode regresi multivariat. Dengan dua variabel independent yakni variabel X(Ekspor Gas Alam), dan variabel S(Ekspor Minyak Mentah). Dengan satu variabel dependen yakni GDP Indonesia. Penelitian ini dimaksud untuk mencari hubungan antara Ekspor gas alam dan minyak mentah dengan GDP Indonesia. Spesifikasi yang dilakukan adalah:</p>
+<p><span class="math display">\[
+y_{t}=\beta_0 + \beta_1 x_t+\beta_2s+\mu_t
+\]</span></p>
+<p>Dimana <span class="math inline">\(y_t\)</span> adalah GDP dan <span class="math inline">\(x_t\)</span> adalah Ekspor Gas Alam dan <span class="math inline">\(s_t\)</span> adalah Ekspor Minyak Mentah.</p>
+</section>
+</section>
+<section id="pembahasan" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="pembahasan"><span class="header-section-number">4</span> Pembahasan</h2>
+<section id="pembahasan-masalah" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">4.1</span> Pembahasan masalah</h3>
+<p>Pembahasan masalah Peneliti menggunakan regresi multivariat dan didapatkan hasil data sebagai berikut:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>coefficients</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Intercept</td>
+<td>6.938e+11</td>
+</tr>
+<tr class="even">
+<td>X</td>
+<td>1.003e+05</td>
+</tr>
+<tr class="odd">
+<td>S</td>
+<td>-1.485e+05</td>
+</tr>
+<tr class="even">
+<td>Multiple R-squared</td>
+<td>0.6867</td>
+</tr>
+<tr class="odd">
+<td>Adjusted R-squared</td>
+<td>0.6569</td>
+</tr>
+<tr class="even">
+<td>p-value</td>
+<td>5.101e-06</td>
+</tr>
+</tbody>
+</table>
+<p>Model regresi multivariat dari output di atas adalah:</p>
+<p><span class="math display">\[
+y_{t}=\ (6.938e+11) + \ (1.003e+05 )x-\ (1.485e+05)s+\mu_t
+\]</span></p>
+</section>
+<section id="analisis-masalah" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">4.2</span> Analisis masalah</h3>
+<p>Hasil regresinya adalah:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>reg2<span class="ot">&lt;-</span><span class="fu">lm</span>(<span class="at">data=</span>metopen,Y<span class="sc">~</span>X<span class="sc">+</span>S)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Y ~ X + S, data = metopen)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-2.883e+11 -1.482e+11 -2.302e+10  1.239e+11  4.610e+11 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  6.938e+11  1.100e+11   6.308 2.96e-06 ***
+X            1.003e+05  1.621e+04   6.185 3.89e-06 ***
+S           -1.485e+05  2.238e+04  -6.638 1.43e-06 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 2.281e+11 on 21 degrees of freedom
+Multiple R-squared:  0.6867,    Adjusted R-squared:  0.6569 
+F-statistic: 23.01 on 2 and 21 DF,  p-value: 5.101e-06</code></pre>
+</div>
+</div>
+<p>Dari hasil diatas dapat dilihat bahwa Semua p-value sangat kecil (kurang dari 0.001), yang berarti koefisien X dan S signifikan secara statistik. Ini menunjukkan bahwa pengaruh X dan S terhadap Y tidak terjadi secara kebetulan.R-squared sebesar 0.6867 mengindikasikan bahwa sekitar 68.67% variabilitas dalam Y dapat dijelaskan oleh variasi dalam X dan S.Sedangkan Adjusted R-squared 0.6569 sedikit lebih konservatif, namun tetap menunjukkan bahwa model memiliki daya prediksi yang cukup baik.</p>
+</section>
+</section>
+<section id="kesimpulan" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">5</span> Kesimpulan</h2>
+<p>Dalam penelitian ini ditemukan pengaruh signifikan Ekspor Gas Alam dan minyak mentah terhadap GDP Indonesia.Dari hasil regresi yang sudah dilakukan, dapat dijelaskan bahwa Setiap kenaikan satu satuan pada variabel X yaitu Ekspor Gas Alam akan meningkatkan nilai Y atau GDP sebesar 1.003e+05. Artinya, variabel X memiliki pengaruh positif terhadap variabel Y.Sedangkan setiap kenaikan satu satuan pada variabel S yaitu Ekspor Minyak Mentah akan menurunkan nilai Y sebesar 1.485e+05. Ini menunjukkan hubungan negatif antara variabel S dan Y.Kemungkinan Ini menunjukkan bahwa Indonesia mengekspor minyak mentah dalam jumlah yang lebih sedikit dibandingkan sebelumnya. Artinya karena perekonomian Indonesia tumbuh dan menghasilkan output barang dan jasa yang lebih besar, maka permintaan akan energi, termasuk minyak mentah, akan meningkat karena digunakan untuk berbagai aktivitas produksi, dan terjadilah penurunan ekspor minyak mentah yang disebabkan oleh peningkatan konsumsi dalam negeri.</p>
+</section>
+<section id="referensi" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="referensi"><span class="header-section-number">6</span> Referensi</h2>
+<p>Anwar, H. (2023). Dampak fluktuasi harga minyak dunia terhadap perekonomian Indonesia. Diakses dari Kementerian Keuangan Badan Pusat Statistik. (2023). Ekspor gas alam Indonesia turun terendah di 2023. Diakses dari GoodStats CEIC Data. (2023). Natural gas exports. Diakses dari CEIC Data CNBC Indonesia. (2022). RI ekspor minyak mentah tapi impor BBM, kok bisa? Diakses dari CNBC Indonesia ESDM. (2023). Harga minyak dunia melonjak, ICP Juli 2024 dipatok USD 82 per barel. Diakses dari ESDM ESDM. (2023). Harga minyak dunia turun, ICP Agustus ditetapkan USD 78,51/barel. Diakses dari ESDM ESDM. (2023). Total nilai ekspor LNG: Indonesia optimis sebagai key player LNG. Diakses dari ESDM Jurnal Kementerian Perdagangan. (2022). Analisis kebijakan ekspor energi. Diakses dari Kementerian Perdagangan Universitas Airlangga. (2023). Memahami model harga minyak mentah dunia. Diakses dari Universitas Airlangga Universitas Jambi. (2023). Analisis Ekspor Gas Alam dan Minyak Mentah. Diakses dari Repository Universitas Jambi</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
